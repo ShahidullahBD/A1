@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+}
+
+.font-pen-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+ 
+}
+
+header nav{
+    padding: 16px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+header nav img{
+    width: 139px;
+    height: 60px;
+}
+header nav ul{
+    list-style-type: none;
+        
+}
+header nav ul li{
+    font-size: 16px;
+    display: inline;
+    padding-right: 32px;
+    font-weight: medium;
+}
+header nav .btn_access{
+    font-size: 16px;
+    width: 164px;
+    height: 44px;
+    border-radius: 4px;
+    border: none;
+    background-color: #30B868;
+    color: white;
+    font-weight: semi bold;
+}
+header .banner-section{
+    text-align: center;
+    background-image: url(./B13-A01-Knowledge-Vault/assets/hero-bg.png);
+    width: device-width;
+    height: 674px;
+}
+header section .banner-text{
+
+    height: 379px;
+    padding: 115px 120px 264px;
+}
+header section .banner-text button{
+    margin-bottom: 16px;
+}
+header section .banner h1{
+    font-size: 79px;
+    font-weight: 700;
+    font-style: bold;
+}
+header section .banner p{
+    margin-top: 16px;
+    margin-bottom: 32px;
+    color: white;
+}
+
