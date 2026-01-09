@@ -183,3 +183,54 @@ header section .btn_see i{
     color: #627382;
     margin-bottom: 70px;
 }
+
+.brain-section{
+    display: flex;
+    margin: 120px;
+    gap: 60px;    
+}
+
+.brain-section .brain-image{
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;    
+}
+
+.brain-section .brain-message{
+    margin-top: 102px;    
+}
+
+.brain-section .brain-message h4{
+    font-size: 16px;
+    color: #30B868;
+    text-transform: uppercase;
+}
+
+.brain-section .brain-message h1{
+    font-size: 48px;
+    color: black;
+    margin-top: 16px;
+}
+
+.brain-section .brain-message p{
+    font-size: 16px;
+    color: #627382;
+    margin-top: 16px;
+}
+
+.brain-section .brain-message-list{
+    margin-top: 40px;
+}
+
+.brain-section .brain-message-list ul li{
+    list-style-type: none;
+    margin-bottom: 16px;
+    align-content: center;
+    display: flex;
+    gap:6px;
+}
+
+.brain-section .brain-message-list ul li img{
+    width: 20px;
+    height: 20px;
+}
