@@ -42,7 +42,14 @@ header nav .btn_access{
     background-color: #30B868;
     color: white;
     font-weight: semi bold;
+    cursor: pointer;
 }
+
+header nav .btn_access:hover{
+    background-color: aqua;
+    color: black;
+}
+
 
 header section .btn_access{
     font-size: 16px;
@@ -50,6 +57,12 @@ header section .btn_access{
     color: #30B868;
     padding: 8px 12px;    
     border-radius: 1000px;
+    cursor: pointer;
+}
+
+header section .btn_access:hover{
+    background-color: aqua;
+    color: black;
 }
 
 header section .btn_access i{
@@ -99,6 +112,11 @@ header section .btn_start{
     margin-right: 16px;
 }
 
+header section .btn_start:hover{
+    background-color: aqua;
+    color: black;
+}
+
 header section .btn_start i{
     padding-left: 10px;
 }
@@ -111,6 +129,11 @@ header section .btn_see{
     background-color: transparent;
     color: #30B868;
     border-radius: 4px;
+}
+
+header section .btn_see:hover{
+    background-color: aqua;
+    color: black;
 }
 
 header section .btn_see i{
@@ -264,6 +287,12 @@ header section .btn_see i{
     border: none;
     margin-bottom: 16px;
     box-shadow: 0px 10px 20px 0px rgb(0, 0, 0, 0.15);
+    cursor: pointer;;
+}
+
+.early-access-section button:hover{
+    background-color: #F95555;
+    color: black;
 }
 
 .early-access-section button i{
