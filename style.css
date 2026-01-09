@@ -275,3 +275,50 @@ header section .btn_see i{
     color: #627382;
     padding-bottom: 80px;
 }
+
+footer{
+    height: 348px;
+    background-color:rgba(0, 25, 49, 1) ;
+    color: white;    
+}
+
+footer .footer-content{
+    padding: 120px 120px 80px 120px;
+    display: flex;
+    justify-content: space-between;    
+}
+
+footer .logo{
+    width: 139px;
+    height: 60px;
+}
+
+footer .social-icon h4{
+    font-size: 20px;
+    padding-bottom: 16px;
+}
+
+footer .social-icon{
+    padding-right: 107px;
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+footer ul li{
+    background-color: white;
+    border-radius: 50%;
+}
+
+footer .footer-bottom{
+    margin: 0 120px 30px 120px;    
+}
+
+footer .copywrite-info{
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 0px;
+}

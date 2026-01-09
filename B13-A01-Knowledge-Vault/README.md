@@ -85,7 +85,6 @@
 - A list of items below the description
 
 ---
-
 ### 🔹 Footer Section
 
 ![Footer Section](Sections/Footer.png)
