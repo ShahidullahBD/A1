@@ -234,3 +234,44 @@ header section .btn_see i{
     width: 20px;
     height: 20px;
 }
+
+.early-access-section{
+    text-align: center;
+    margin: 2px 120px 120px 120px;
+    background-color: #F7F6F2;  
+    border-radius: 12px;  
+}
+
+.early-access-section h2{
+    font-size: 40px;
+    padding-top: 80px;
+    padding-bottom: 16px;
+    text-transform: capitalize;
+}
+
+.early-access-section p{
+    font-size: 16px;
+    margin-bottom: 24px;
+    color: #627382;
+}
+
+.early-access-section button{
+    font-size: 16px;
+    padding: 12px 16px;
+    background-color: #30B868;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 16px;
+    box-shadow: 0px 10px 20px 0px rgb(0, 0, 0, 0.15);
+}
+
+.early-access-section button i{
+    padding-left: 10px;
+}
+
+.early-access-section .btn-early p{
+    font-size: 16px;
+    color: #627382;
+    padding-bottom: 80px;
+}
