@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .font-pen-sans {
@@ -31,6 +31,8 @@ header nav ul li{
     padding-right: 32px;
     font-weight: medium;
 }
+
+
 header nav .btn_access{
     font-size: 16px;
     width: 164px;
@@ -41,28 +43,143 @@ header nav .btn_access{
     color: white;
     font-weight: semi bold;
 }
+
+header section .btn_access{
+    font-size: 16px;
+    font-weight: medium;
+    color: #30B868;
+    padding: 8px 12px;    
+    border-radius: 1000px;
+}
+
+header section .btn_access i{
+    margin-right: 6px;
+}
+
 header .banner-section{
     text-align: center;
     background-image: url(./B13-A01-Knowledge-Vault/assets/hero-bg.png);
     width: device-width;
     height: 674px;
 }
-header section .banner-text{
 
+header section .banner-text{
     height: 379px;
     padding: 115px 120px 264px;
 }
+
 header section .banner-text button{
     margin-bottom: 16px;
 }
+
 header section .banner h1{
-    font-size: 79px;
+    font-size: 72px;
+    font-style: bold;
     font-weight: 700;
     font-style: bold;
 }
+
 header section .banner p{
+    font-size: 18;
+    font-weight: regular;
+    line-height: 24px;
     margin-top: 16px;
     margin-bottom: 32px;
     color: white;
 }
 
+header section .btn_start{
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: semi-bold;
+    background-color: #30B868;
+    color: white;
+    border-radius: 4px;
+    margin-right: 16px;
+}
+
+header section .btn_start i{
+    padding-left: 10px;
+}
+
+header section .btn_see{
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: semi-bold;
+    background-color: transparent;
+    color: #30B868;
+    border-radius: 4px;
+}
+
+header section .btn_see i{
+    padding-right: 10px;
+}
+
+.notes-section .notes-heading{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.notes-section .notes-heading h2{
+    font-size: 48px;
+    font-weight: 700;
+    font-style: bold;
+    margin-bottom: 16px;
+}
+
+.notes-section .notes-heading p{
+    font-size: 16px;
+    margin-bottom: 44px;
+}
+
+.cards{
+    margin: 0 120px;
+    padding-right: 24px;
+    display: flex;
+    gap: 24px;
+}
+
+.cards-content {
+    width: 322px;
+    height: 320px;
+    padding: 24px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgb(0, 0, 0, 0.6) ;
+   justify-items: center;
+}
+
+.cards .cards-content .icon{
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 50%;
+    margin-top: 70px;
+    margin-bottom: 16px;
+    text-align: center;
+    justify-items: center;
+    display: flex;
+}
+
+.cards .cards-content .icon i{
+    font-size: 32px;
+    color: white;
+    padding: 14px;
+}
+
+.cards-content h3{
+    font-size: 24px;
+    font-style: semi-bold;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.cards-content p{
+    font-size: 16px;
+    font-style: regular;
+    font-weight: 400;
+    color: #627382;
+    margin-bottom: 70px;
+}
